@@ -7,10 +7,10 @@ package:
 
 source:
   - url: https://github.com/analogdevicesinc/{{ name }}/archive/v{{ version }}.tar.gz
-    sha256: 49c54d4b0bb4099f13cf8fb2730b4924b599cc33b545ba78b170c1fd7921ce78
+    sha256: b0111ffbcb3fd79cede7295affa92005f89204e07f716d1a20930fdc7d426e33
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage('libm2k', max_pin='x.x') }}
 
